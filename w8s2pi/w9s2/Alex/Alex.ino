@@ -278,7 +278,7 @@ void rightISR()
     //Serial.println(rightForwardTicksTurns);
   }
   else if (dir == RIGHT) {
-    rightReverseTicks++;
+    rightReverseTicksTurns++;
     //Serial.print("RRTURN: ");
     //Serial.println(rightReverseTicksTurns);
   }
